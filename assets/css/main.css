@@ -13,11 +13,12 @@
 	border-radius:50px;
 	text-align:center;
 	font-size: 25pt;
-	box-shadow: 2px 2px 3px #999;
+	justify-content: center;
+	align-items: center;
 }
 
-.my-float{
-	margin-top:22px;
+.float:hover{
+	border: 2px solid #f6755e;
 }
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2930,7 +2931,7 @@
 
 	#banner {
 		padding: 14em 0 12em 0;
-		background-image: url(../../images/banner.jpg);
+		background-color: #282c34;
 		background-size: cover;
 		background-position: center top;
 		background-repeat: no-repeat;
